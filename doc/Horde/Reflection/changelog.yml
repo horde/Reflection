@@ -1,0 +1,12 @@
+---
+1.0.0alpha1:
+  api: 1.0.0
+  state:
+    release: alpha
+    api: alpha
+  date: 2011-03-07
+  license:
+    identifier: LGPL-2.1
+    uri: http://www.gnu.org/licenses/lgpl.html
+  notes: |
+    First alpha release for Horde 4.
