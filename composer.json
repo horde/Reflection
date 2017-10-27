@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-reflection",
+    "name": "horde/reflection",
     "description": "Method reflection and documentation package",
     "type": "library",
     "homepage": "https://pear.horde.org",
@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^5.3"
+        "php": "^5.3 || ^7"
     },
     "replace": {
         "pear-pear.horde.org/Horde_Reflection": "1.*",
