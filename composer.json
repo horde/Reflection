@@ -1,4 +1,5 @@
 {
+    "minimum-stability": "dev",
     "name": "horde/reflection",
     "description": "Method reflection and documentation library",
     "type": "library",
@@ -23,7 +24,7 @@
     },
     "require-dev": {},
     "suggest": {
-        "horde/cli": "*"
+        "horde/cli": "* || dev-FRAMEWORK_6_0"
     },
     "autoload": {
         "psr-0": {
