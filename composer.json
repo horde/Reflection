@@ -11,20 +11,19 @@
             "role": "lead"
         }
     ],
-    "version": "1.0.0alpha1",
-    "time": "2017-11-11",
+    "time": "2021-07-04",
     "repositories": [
         {
-            "type": "pear",
-            "url": "https://pear.horde.org"
+            "type": "composer",
+            "url": "https://horde-satis.maintaina.com/"
         }
     ],
     "require": {
-        "php": "^5.3 || ^7"
+        "php": "^7"
     },
-    "replace": {
-        "pear-pear.horde.org/Horde_Reflection": "1.*",
-        "pear-horde/Horde_Reflection": "1.*"
+    "require-dev": {},
+    "suggest": {
+        "horde/cli": "*"
     },
     "autoload": {
         "psr-0": {

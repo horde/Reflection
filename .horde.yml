@@ -25,4 +25,7 @@ license:
   uri: http://www.gnu.org/licenses/lgpl.html
 dependencies:
   required:
-    php: ^5.3 || ^7
+    php: ^7
+  optional:
+    composer:
+      horde/cli: '*'

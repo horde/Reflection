@@ -4,9 +4,9 @@
   state:
     release: alpha
     api: alpha
-  date: 2011-03-07
+  date: 2021-07-04
   license:
     identifier: LGPL-2.1
     uri: http://www.gnu.org/licenses/lgpl.html
   notes: |
-    First alpha release for Horde 4.
+    [rla] Package for H6 / composer installer. This library is originally designed for H4.

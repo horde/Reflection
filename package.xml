@@ -3,16 +3,15 @@
  <name>Horde_Reflection</name>
  <channel>pear.horde.org</channel>
  <summary>Method reflection and documentation library</summary>
- <description>The Reflection package provides methods for generationg code reflection and automatic documentation of methods.
-The package has a driver based output generation and currently generates HTML and Text_Wiki output.
-</description>
+ <description>The Reflection library provides methods for generationg code reflection and automatic documentation of methods.
+The package has a driver based output generation and currently generates HTML and Text_Wiki output.</description>
  <lead>
   <name>Chuck Hagenbuch</name>
   <user>chuck</user>
   <email>chuck@horde.org</email>
-  <active>yes</active>
+  <active>no</active>
  </lead>
- <date>2017-11-11</date>
+ <date>2021-07-04</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0</api>
@@ -23,7 +22,7 @@ The package has a driver based output generation and currently generates HTML an
  </stability>
  <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL-2.1</license>
  <notes>
-* [jan] Mark PHP 7 as supported.
+* [rla] Package for H6 / composer installer. This library is originally designed for H4.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -50,7 +49,7 @@ The package has a driver based output generation and currently generates HTML an
  <dependencies>
   <required>
    <php>
-    <min>5.3.0</min>
+    <min>7.0.0</min>
     <max>8.0.0alpha1</max>
     <exclude>8.0.0alpha1</exclude>
    </php>
@@ -79,10 +78,10 @@ The package has a driver based output generation and currently generates HTML an
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-11-11</date>
+   <date>2021-07-04</date>
    <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL-2.1</license>
    <notes>
-* [jan] Mark PHP 7 as supported.
+* [rla] Package for H6 / composer installer. This library is originally designed for H4.
    </notes>
   </release>
  </changelog>
